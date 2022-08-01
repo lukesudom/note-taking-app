@@ -1,9 +1,6 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.16.0"
-  },
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
@@ -12,8 +9,8 @@
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "npm run build"
-
+    "heroku-postbuild": "npm run build",
+    "build": "npm build"
   },
   "author": "",
   "license": "ISC",
