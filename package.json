@@ -4,7 +4,6 @@
   "engines": {
     "node": "16.16.0"
   },
-  "description": "",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
@@ -20,5 +19,16 @@
   "dependencies": {
     "express": "^4.16.4",
     "node": "^18.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukesudom/note-taking-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lukesudom/note-taking-app/issues"
+  },
+  "homepage": "https://github.com/lukesudom/note-taking-app#readme",
+  "description": ""
 }
