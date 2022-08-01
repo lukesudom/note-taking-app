@@ -2,8 +2,7 @@
   "name": "note-taker",
   "version": "1.0.0",
   "engines": {
-    "node": "16.16.0",
-    "npm": "5.6.0"
+    "node": "16.16.0"
   },
   "main": "server.js",
   "type": "commonjs",
