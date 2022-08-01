@@ -1,31 +1,15 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "node": "^18.7.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lukesudom/note-taking-app.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/lukesudom/note-taking-app/issues"
-  },
-  "homepage": "https://github.com/lukesudom/note-taking-app#readme",
-  "description": ""
+    "uuid": "^8.3.2"
+  }
 }
